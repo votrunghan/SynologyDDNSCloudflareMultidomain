@@ -31,6 +31,9 @@ wget https://raw.githubusercontent.com/dienmaythinhgia/SynologyDDNSCloudflareMul
 3. Add Cloudflare to the list of DDNS providers DMS file(Location : __/etc.defaults/ddns_provider.conf__)
 
 ```
+wget https://raw.githubusercontent.com/dienmaythinhgia/SynologyDDNSCloudflareMultidomain/master/ddns_provider.conf -O /etc.defaults/ddns_provider.conf
+
+hoac :
 [Cloudflare]
   modulepath=/usr/syno/bin/ddns/cloudflare.php
   queryurl=https://www.cloudflare.com/
