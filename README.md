@@ -25,6 +25,8 @@ Installation
 2. Connect via SSH and execute command
 
 ```
+sudo -i
+
 wget https://raw.githubusercontent.com/dienmaythinhgia/SynologyDDNSCloudflareMultidomain/master/cloudflare.php -O /usr/syno/bin/ddns/cloudflare.php && sudo chmod 755 /usr/syno/bin/ddns/cloudflare.php
 ```
 
