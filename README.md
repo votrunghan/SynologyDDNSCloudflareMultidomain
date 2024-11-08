@@ -1,4 +1,4 @@
-Synology DDNS Cloudflare with multidomains and subdomains
+Synology DDNS Cloudflare or DDNS Arcdns.tech with multidomains and subdomains
 ========================
 
 Description
@@ -22,7 +22,7 @@ Installation
 1. Activate SSH in DMS (__Control Panel -> Terminal & SNMP -> Enable SSH service__)
 ![image](example2.png)
 
-2. Connect via SSH and execute command  install cloudflare.php & Arcdns.php to /usr/syno/bin/ddns/
+2. Connect via SSH and execute command  install cloudflare.php & arcdns.php to /usr/syno/bin/ddns/
 
 ```
 sudo -i
@@ -31,7 +31,7 @@ wget https://raw.githubusercontent.com/dienmaythinhgia/SynologyDDNSCloudflareMul
 wget https://raw.githubusercontent.com/dienmaythinhgia/SynologyDDNSCloudflareMultidomain/master/arcdns.php -O /usr/syno/bin/ddns/arcdns.php && sudo chmod 755 /usr/syno/bin/ddns/arcdns.php
 ```
 
-3. Add Cloudflare and Arcdns to the list of DDNS providers DMS file(Location : __/etc.defaults/ddns_provider.conf__)
+3. Add Cloudflare and Arcdns to the list of DDNS providers DDNS file(Location : __/etc.defaults/ddns_provider.conf__)
 
 ```
 wget https://raw.githubusercontent.com/dienmaythinhgia/SynologyDDNSCloudflareMultidomain/master/ddns_provider.conf -O /etc.defaults/ddns_provider.conf
