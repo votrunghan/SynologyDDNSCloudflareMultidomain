@@ -46,6 +46,9 @@ hoac :
 [Cloudflare]
   modulepath=/usr/syno/bin/ddns/cloudflare.php
   queryurl=https://www.cloudflare.com/
+[ArcDNS.tech]
+        modulepath=/usr/syno/bin/ddns/arcdns.php
+        queryurl=https://arcdns.tech/update/__HOSTNAME__/__PASSWORD__
 ```
 
 5. Than go to DMS settingS __Control Panel -> External Access -> DDNS__ and add new DDNS:
