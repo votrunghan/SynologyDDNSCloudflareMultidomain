@@ -15,7 +15,13 @@ Before start to use this script
 
 Example
 ---------------
+[Cloudflare](https://www.cloudflare.com/) ddns
+
 ![image](example1.png)
+---------------
+[arcdns.tech](https://arcdns.tech/) ddns
+
+![image](Arcdns.png)
 
 Installation
 ----------------
