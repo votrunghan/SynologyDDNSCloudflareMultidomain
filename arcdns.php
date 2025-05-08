@@ -1,4 +1,3 @@
-
 #!/usr/bin/php -d open_basedir=/usr/syno/bin/ddns
 <?php
 
